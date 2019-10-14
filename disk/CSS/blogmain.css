@@ -1,0 +1,58 @@
+html {
+    margin: 0px;
+    width: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    margin: 0px;
+    top: 0px;
+    bottom: 0;
+   /* background: url(../Img/eyes.jpeg) no-repeat center center fixed;
+   /* width: fit-content;*/
+    
+    background-size: contain;
+}
+.blog-hero {
+    
+    height: 100vh;
+    background-position: inherit;
+    color:whitesmoke;
+
+}
+.blog-hero h2 {
+
+    font-weight: 300;
+    margin: 15px;
+    font-size: 3.2 rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.blog-menu img {
+    width: 100%;
+    height: 400px;
+}
+.blog-menu ul {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.blog-menu ul li {
+    margin: 0px 50px;
+    list-style: inside;
+    padding-top: 50px;
+    width: 5%;
+}
+/*  main */
+.blog-photos  {
+    background-color: whitesmoke;
+    padding: 0px;
+    padding-block: 2px;
+    
+
+}
+.blog-photos img {
+    width: 500px;
+    height: 500px;
+}
