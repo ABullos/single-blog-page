@@ -1,35 +1,32 @@
 html {
-    margin: 0px;
-    width: 100;
+    margin: 0;
+    width: 100%;
     font-family: 'Courier New', Courier, monospace;
 }
 body {
-    margin: 0px;
+    margin: 0;
     top: 0px;
     bottom: 0;
    /* background: url(../Img/eyes.jpeg) no-repeat center center fixed;
-   /* width: fit-content;*/
+    width: fit-content;*/
     
-    background-size: contain;
+    /*background-size: inherit;;*/
 }
 .blog-hero {
-    
-    height: 100vh;
-    background-position: inherit;
-    color:whitesmoke;
+    width: 100%;
+    height: 30vh;
+    /*color:whitesmoke;*/
+    background-color: whitesmoke;
+
 
 }
 .blog-hero h2 {
-
+    color: black;
     font-weight: 300;
     margin: 15px;
-    font-size: 3.2 rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-.blog-menu img {
-    width: 100%;
-    height: 400px;
+    font-size: 3.2re;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .blog-menu ul {
     margin: 10px;
@@ -40,19 +37,93 @@ body {
 }
 .blog-menu ul li {
     margin: 0px 50px;
-    list-style: inside;
+    list-style: initial;
     padding-top: 50px;
     width: 5%;
 }
 /*  main */
-.blog-photos  {
-    background-color: whitesmoke;
-    padding: 0px;
-    padding-block: 2px;
-    
+main {
+    margin: 0px;
+    padding: 0%;   
 
 }
+.blog-photos {
+ 
+    background-color:whitesmoke ;
+    margin: 0;
+    
+    padding: 0;
+    right: 0;
+}
+.photos-div{
+    width: 100%;
+}
 .blog-photos img {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
+    padding: 4px 0px;
+    margin-left: 16px;
+    margin-right: 4px;
+
+
+}
+/*.portfolio-form {
+    background: whitesmoke;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color:#C5BCB7;
+}
+.form-label {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.form-input input {
+    width: 50%;
+    padding: 7px 0px;
+    border-radius:8px;
+    text-align: center;
+    position: center;
+}
+.form-input input:focus {
+    transition: .7s;
+    border-color: #8d0035;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #8d0035
+}
+.form-input-textarea {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    width: 50%;
+    padding: 7px 0px;
+    height: 100px;
+   text-align: center;
+}
+.form-input-textarea textarea:focus {
+    transition: .7s;
+    border-color: black;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #8d0035
+}
+.form-submit {
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    background-color: #8d0035;
+
+}
+.btn-submit {
+    padding: 5px 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #C5BCB7 ;
+    background-color: #000b1D;
+
+}
+.footer {
+    color: white;
+    text-align: center;
+    padding:20px;
+    background: #8d0035;
+    
 }
