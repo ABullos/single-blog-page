@@ -2,10 +2,10 @@
   "name": "andi",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://github.com/ABullos/single-blog-page",
+  "homepage": "https://github.io/ABullos/single-blog-page",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d disk"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
